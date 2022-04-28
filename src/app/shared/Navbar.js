@@ -10,12 +10,12 @@ import 'react-pro-sidebar/dist/css/styles.css';
 
 
 class Topnavbar extends Component {
-  constructor(props){
-    super(props)
-    // this.state={
-    //   toggleLogo: true
-    // }
-  }
+  // constructor(props){
+  //   super(props)
+  //   // this.state={
+  //   //   toggleLogo: true
+  //   // }
+  // }
   toggleOffcanvas() {
     document.querySelector('.sidebar-offcanvas').classList.toggle('active');
   }
