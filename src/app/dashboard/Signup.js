@@ -94,7 +94,7 @@ const handleradio1 = ()=>{
                 </div>
               </div>
               <div className="radiosecond">
-                <div className=" ml-5" class="form-check">
+                <div className=" ml-5 otherpartnership" class="form-check">
                   <input
                     class="form-check-input"
                     type="radio"
@@ -110,7 +110,7 @@ const handleradio1 = ()=>{
                   <label
                     class="form-check-label"
                     for="flexRadioDefault2"
-                    className="label1"
+                    className="otherpartnership"
                   >
                     <h6>Other(e.g.Partnership)</h6>
                   </label>
@@ -507,7 +507,7 @@ const handleradio1 = ()=>{
                         <input
                        
                           type="Number"
-                          className="form-control form-control-lg ml-2 emailsinput"
+                          className="form-control form-control-lg ml-2 emailsinput3"
                           placeholder="Enter "
                         />
                         

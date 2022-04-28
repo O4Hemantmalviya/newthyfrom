@@ -11,7 +11,7 @@
     padding-top: 10px;
     
   }
-  @media screen and (max-width: 375px) {
+  /* @media screen and (max-width: 375px) {
     .showlog {
       margin-left: 160px !important;
     }
@@ -20,18 +20,21 @@
     .showlog {
       margin-left: 80px !important;
     }
-  }
-  @media screen and (max-width: 425px) {
+  }*/
+  /* @media screen and (max-width: 425px) {
     .showlog {
-      margin-left: 150px !important;
+      margin-left:240px !important;
     }
-  }
-  @media screen and (max-width: 1024px) {
+  } */
+   /* @media screen and (max-width:1024px) {
     .showlog {
-      margin-left: 100px;
+      margin-left:300px !important;
+      padding-right:300px !important;
     }
-  }
- 
+  } 
+  
+   */
+   
   .darkmodes {
     background-color: black;
     color: white;

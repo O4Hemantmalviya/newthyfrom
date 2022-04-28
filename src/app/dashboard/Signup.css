@@ -6,6 +6,19 @@
     display: flex;
     justify-content: space-around;  
   }
+  @media screen and (max-width:375px) {
+    .radiobutton{
+    display: inline;
+    
+       
+    }
+  } 
+  .otherpartnership{
+    color: #17264d;
+  font-weight:400;
+  
+  }
+ 
   .xyz{
     margin-left: -3%;
   }
@@ -18,13 +31,50 @@
   .radiosecond {
     padding-left: 50px;
   }
+  @media screen and (max-width:375px) {
+    .radiosecond {
+      margin-right:30%;
+      
+    }
+  } 
+  
   .selecttype {
     width: 300px;
     height:40px;
     border: 2px solid #d0e3e9;
     background-color: #f1f9fd;
   }
+  @media screen and (max-width:375px) {
+    .selecttype{
+      width:230px;
+    }
+  } 
+  @media screen and (max-width:320px) {
+    .selecttype{
+      width:200px;
+    }
+  } 
+
+
   .emailsinput{
+    border: 2px solid #d0e3e9;
+    background-color: #f1f9fd;
+    height: 40px;
+    padding-left:30px;
+    width:310px;
+  }
+  @media screen and (max-width:320px) {
+    .emailsinput{
+      width:200px;
+    }
+  } 
+  @media screen and (max-width:375px) {
+    .emailsinput{
+      width:230px;
+    }
+  } 
+
+  .emailsinput3{
     border: 2px solid #d0e3e9;
     background-color: #f1f9fd;
     height: 40px;
@@ -42,6 +92,16 @@
     width:300px ;
     height: 40px;
 }
+@media screen and (max-width:375px) {
+  .passwordinput{
+    width:230px;
+  }
+} 
+@media screen and (max-width:320px) {
+  .passwordinput{
+    width:200px;
+  }
+} 
 .companyinput{
   border: 2px solid #d0e3e9;
     background-color: #f1f9fd;
@@ -58,34 +118,36 @@
     border: 2px solid #d0e3e9;
     background-color: #f1f9fd;
   }
+  @media screen and (max-width:375px) {
+    .selecttype2{
+      width:230px;
+    }
+  } 
+  @media screen and (max-width:320px) {
+    .selecttype2{
+      width:200px;
+    }
+  } 
+
+
   .selecttype3 {
     width: 310px;
     height: 42px;
     border: 2px solid #d0e3e9;
     background-color: #f1f9fd;
   }
+  @media screen and (max-width:375px) {
+    .selecttype3{
+      width:230px;
+    }
+  } 
+  @media screen and (max-width:320px) {
+    .selecttype3{
+      width:200px;
+    }
+  } 
   
-  /* @media screen and (max-width: 320px) {
-    .selecttype {
-      width: 50px;
-    }
-    .signupicon {
-      margin-left: 68% !important;
-    }
-  }
-  @media screen and (max-width: 375px) {
-    .selecttype {
-      width: 50px;
-    }
-    .signupicon {
-      margin-left: 68% !important;
-    }
-  }
-  @media screen and (max-width: 425px) {
-    .selecttype {
-      width: 50px;
-    }
-  } */
+  
   .solo {
     padding-left: 30px;
   }
@@ -95,8 +157,24 @@
   .signupicon {
     margin-left:37%;
     position: absolute;
-    padding-top:11px;
+    padding-top:8px;
+    
   }
+  @media screen and (max-width:1440px) {
+    .signupicon {
+      margin-left:28%;
+    }
+  } 
+  @media screen and (max-width:1024px) {
+    .signupicon {
+      margin-left:42%;
+    }
+  } 
+  @media screen and (max-width:425px) {
+    .signupicon {
+      margin-left:65%!important;
+    }
+  } 
   .inputicon{
     position: absolute;
     margin-left: 10px;
