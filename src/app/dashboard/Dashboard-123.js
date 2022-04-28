@@ -4,7 +4,7 @@ import { Line, Bar, Radar } from 'react-chartjs-2';
 
 import { ProgressBar, Dropdown } from 'react-bootstrap';
 import GaugeChart from 'react-gauge-chart';
-import { VectorMap } from "react-jvectormap"
+// import { VectorMap } from "react-jvectormap"
 
 const mapData = {
   CN: 100000,
@@ -1367,7 +1367,7 @@ export class Dashboard extends Component {
                 <div className="card">
                   <div className="card-body">
                     <h4 className="card-title mb-4">World sellings</h4>
-                    <div className="map-height">
+                    {/* <div className="map-height">
                       <VectorMap
                       map={"world_mill"}
                       height={100}
@@ -1406,7 +1406,7 @@ export class Dashboard extends Component {
                         ]
                       }}
                     />
-                    </div>
+                    </div> */}
                     <div className="wrapper">
                       <div className="d-flex w-100 pt-2 mt-4">
                         <p className="mb-0 font-weight-semibold">California</p>

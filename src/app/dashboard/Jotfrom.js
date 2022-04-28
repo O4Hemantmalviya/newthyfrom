@@ -23,7 +23,6 @@ const Jotfrom =()=>  {
             </div>
            
           </Col>
-     
           {/* {!sidebar ?  */}
           <aside className={on ? 'to-right' : ''}>
            <div className="mt-5">
